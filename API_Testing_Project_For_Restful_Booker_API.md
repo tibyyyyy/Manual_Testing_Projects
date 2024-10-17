@@ -152,6 +152,7 @@ The collection was also run through newman directly from the terminal, and the r
 
 The following issues were identified while running the postman tests:<br>
 
+<li> **API Status Check**: <li>
 
 
 <h2>Conclusions</h2>
