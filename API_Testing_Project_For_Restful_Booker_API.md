@@ -11,7 +11,7 @@ Collection link: **[Postman Collection](https://www.postman.com/tiby/workspace/p
 <h2>Tests performed</h2>
 
 <ol>
-<li> **API Status Check** </li>
+<li>API Status Check</li>
 
 HTTP method for request: **GET**<br>
 Request description: **A simple health check endpoint to confirm whether the API is up and running**<br>
@@ -28,11 +28,11 @@ JavaScript Tests:
 ![vecsQXxRJu](https://github.com/user-attachments/assets/998c09d9-e011-4f91-a376-6cfb2f16fe6a) <br>
 
 
-<li>**Create Token**</li>
+<li>Create Token</li>
 
 HTTP method for request: **POST**<br>
 Request description: **Creates a new auth token to use for access to PUT/PATCH/DELETE requests**<br>
-Test types / techniques used: **Functional Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
+Test types / techniques used: **Functional Testing, Security Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
 Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
@@ -44,7 +44,7 @@ JavaScript Tests:
 ![qWwC3Oqizb](https://github.com/user-attachments/assets/93f191e9-2fb0-4ac1-82f6-867d821cb136) <br>
 
 
-<li>**Get Booking IDs**</li>
+<li>Get Booking IDs</li>
 
 HTTP method for request: **GET**<br>
 Request description: **Returns the ids of all the bookings that exist within the API. Can take optional query strings to search and return a subset of booking ids.**<br>
@@ -59,7 +59,7 @@ JavaScript Tests:
 
 ![oAYn52n1bU](https://github.com/user-attachments/assets/393d1c89-8974-40a1-b881-0e3cac3a274e) <br>
 
-<li>**Get Specific Booking**</li>
+<li>Get Specific Booking</li>
 
 HTTP method for request: **GET**<br>
 Request description: **Returns a specific booking based upon the booking id provided**<br>
@@ -74,7 +74,7 @@ JavaScript Tests:
 
 ![lYPLCjrRAx](https://github.com/user-attachments/assets/e4eea9d3-5d07-4b4d-9973-ef785fee5063) <br>
 
-<li>**Create Booking**</li>
+<li>Create Booking</li>
 
 HTTP method for request: **POST**<br>
 Request description: **Creates a new booking in the API**<br>
@@ -89,11 +89,11 @@ JavaScript Tests:
 
 ![ongIOj8zZz](https://github.com/user-attachments/assets/4bdc70e9-56de-4925-a8cc-67231ab11a86) <br>
 
-<li>**Delete Booking**</li>
+<li>Delete Booking</li>
 
 HTTP method for request: **DELETE**<br>
 Request description: **Deletes a booking based upon the booking id provided**<br>
-Test types / techniques used: **Functional Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
+Test types / techniques used: **Functional Testing, Security Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
 Response status code: **201 Created**<br>
 
 Below you can find a picture of the API request from Postman:<br>
@@ -104,11 +104,11 @@ JavaScript Tests:
 
 ![4zoZV1w1JX](https://github.com/user-attachments/assets/0cfc5d4c-c3ea-40a5-8968-a15c3c8dd36d) <br>
 
-<li>**Partial Update Booking**</li>
+<li>Partial Update Booking</li>
 
 HTTP method for request: **PATCH**<br>
 Request description: **Updates a current booking with a partial payload**<br>
-Test types / techniques used: **Functional Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
+Test types / techniques used: **Functional Testing, Security Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
 Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
@@ -119,11 +119,11 @@ JavaScript Tests:
 
 ![gP47LDBwcz](https://github.com/user-attachments/assets/9393a812-c5f5-48de-a791-2a8affcc059b) <br>
 
-<li>**Update Booking**</li>
+<li>Update Booking</li>
 
 HTTP method for request: **PUT**<br>
 Request description: **Updates a current booking**<br>
-Test types / techniques used: **Functional Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
+Test types / techniques used: **Functional Testing, Security Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
 Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
@@ -185,8 +185,23 @@ The following issues were identified while running the postman tests:<br>
 ![opPoY5SO2S](https://github.com/user-attachments/assets/9264420d-65b5-462c-95b2-e8737450fa45)
 ![2UnozNBdNy](https://github.com/user-attachments/assets/369b9748-4a90-4334-a553-2137b14601b5)
 
+<li>Partial Update Booking</li>
 
+    - Returned status code for trying to update an inexistent booking should be code 404 "Not Found", but is code 405 "Method not Allowed"
+    - A booking can be updated with invalid checkin and checkout dates, the updated booking showing the invalid dates as "0NaN-aN-aN", the API returning status code 200 "OK". It should return code 400 "Bad Request" and not allow the request
+
+<li>Update Booking</li>
+
+    - Returned status code for trying to update an inexistent booking should be code 404 "Not Found", but is code 405 "Method not Allowed"
+    - A booking can be updated with invalid checkin and checkout dates, the updated booking showing the invalid dates as "0NaN-aN-aN" and the API returning status code 200 "OK". It should return code 400 "Bad Request" and not allow the request
+
+<li>API Bugs</li>
+
+    - The API has inconsistent response times. It can go from 100-200ms response time to as long as 1000ms, which can impact user experience drastically
+    - The token created with the provided information in the documentation doesn't work as intended. It's supposed to allow you to use the POST/PATCH/DELETE requests, but if you try to use the request with the token for authorization the API will return code 403 "Unauthorized" for all 3 requests. To use the requests you'll have to use "Basic Auth", using the credentials used to generate the token initially
+    
 <h2>Conclusions</h2>
 
-**Inserati aici concluziile pe care le-ati obtinut in urma executarii testelor  si introduceti informatii cum ar fi cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc**
+**To test the Restful Booker API I wrote and executed 25 tests in Postman, testing its functionality according to the API Documentation, to make sure it's behaving as intended and I managed to cover every request the API has to offer. The bugs I found could impact the launch of the product, especially the ones that affect the proper functionality of the API. For example, the inconsistent response time of the API can lead to a bad experience for users, leading them to lose interest in the product fairly quickly. The base of the product has been established, so I would recommend focusing on fixing the major bugs, making sure every module and its features work correctly. Security risks are a serious risk for this product, because every booking and account will have the user's personal information, which is something not everyone should see, so we need to take extra precautions to make sure that doesn't happen.**
+
 
