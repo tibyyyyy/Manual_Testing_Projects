@@ -145,7 +145,8 @@ Below you can find the execution report that was generated through the Postman c
 
 The collection was also run through newman directly from the terminal, and the results can be found below:<br>
 
-**Inserati aici o poza cu raportul de executie din Newman**<br>
+![6aD51sxDw3](https://github.com/user-attachments/assets/4f657c67-bbc9-4dd5-b91c-7a9d3be6616e)
+![EHrFSipOYO](https://github.com/user-attachments/assets/f1bbed2b-eeb1-4eb1-a549-39bfd87c91f2) <br>
 
 <h2>Defects found</h2>
 
