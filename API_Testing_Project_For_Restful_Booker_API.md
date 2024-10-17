@@ -1,12 +1,12 @@
-<h1>API Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>API Testing Project for **Restful-Booker API**</h1>
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+Application under test: **Restful-Booker**
 
 Tools used: Postman, Newman
 
-Collection link: **Inserati aici linkul catre colectia de API**
+Collection link: **[Postman Collection](https://www.postman.com/tiby/workspace/proiect-final)**
 
 <h2>Tests performed</h2>
 
