@@ -159,6 +159,8 @@ The following issues were identified while running the postman tests:<br>
 <li> Create Token: </li>
 
     - Returned status code when trying to crate a token with invalid data should be code 401 "Unauthorised" but is code 200 "OK"
+    ![hg87dXUbCw](https://github.com/user-attachments/assets/06c79be2-22a5-4755-9458-53f1a151b300)
+
 
 <h2>Conclusions</h2>
 
