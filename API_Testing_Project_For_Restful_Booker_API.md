@@ -104,35 +104,35 @@ JavaScript Tests:
 
 ![4zoZV1w1JX](https://github.com/user-attachments/assets/0cfc5d4c-c3ea-40a5-8968-a15c3c8dd36d) <br>
 
-<li>**Nume Request n**</li>
+<li>**Partial Update Booking**</li>
 
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
-
-Below you can find a picture of the API request from Postman:<br>
-
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
-
-JavaScript Tests:
-
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
-
-<li>**Nume Request n**</li>
-
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+HTTP method for request: **PATCH**<br>
+Request description: **Updates a current booking with a partial payload**<br>
+Test types / techniques used: **Functional Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
+Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+![eM1NfZBi13](https://github.com/user-attachments/assets/a85d9e99-fe9a-4d14-8861-825d14a94862) <br>
 
 JavaScript Tests:
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+![gP47LDBwcz](https://github.com/user-attachments/assets/9393a812-c5f5-48de-a791-2a8affcc059b) <br>
+
+<li>**Update Booking**</li>
+
+HTTP method for request: **PUT**<br>
+Request description: **Updates a current booking**<br>
+Test types / techniques used: **Functional Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
+Response status code: **200 OK**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![G78T9dHByb](https://github.com/user-attachments/assets/0003aa2f-c0de-4d50-96bd-292f3ac12972) <br>
+
+JavaScript Tests:
+
+![JvTHWQPDAO](https://github.com/user-attachments/assets/badbbe5e-c662-41dc-8397-eacba597c0ce) <br>
 
 </ol>
 
@@ -140,7 +140,8 @@ JavaScript Tests:
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
 
-**Inserati aici o poza cu raportul de executie din Postman**<br>
+![iBhVV94Td2](https://github.com/user-attachments/assets/094076fb-fd57-461e-b57c-1529ca651e14)
+![poPojihY0t](https://github.com/user-attachments/assets/f8e84739-5c8d-4c9d-bd3c-d487887b6327) <br>
 
 The collection was also run through newman directly from the terminal, and the results can be found below:<br>
 
