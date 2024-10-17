@@ -25,7 +25,7 @@ Below you can find a picture of the API request from Postman:<br>
 
 JavaScript Tests:
 
-![RSoERLdW7e](https://github.com/user-attachments/assets/a8899baf-bf43-4110-97a2-967bae15d5c2) <br>
+![vecsQXxRJu](https://github.com/user-attachments/assets/998c09d9-e011-4f91-a376-6cfb2f16fe6a) <br>
 
 
 <li>**Create Token**</li>
