@@ -152,7 +152,7 @@ The collection was also run through newman directly from the terminal, and the r
 
 The following issues were identified while running the postman tests:<br>
 
-<li> API Status Check:<li>
+<li> API Status Check:</li>
 
     - Returned status code should be code 200 "OK", but it's code 201 "Created"
 
