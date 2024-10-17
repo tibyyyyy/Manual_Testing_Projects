@@ -152,9 +152,7 @@ The collection was also run through newman directly from the terminal, and the r
 
 The following issues were identified while running the postman tests:<br>
 
-****Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git
-Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale.
-Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
+
 
 <h2>Conclusions</h2>
 
