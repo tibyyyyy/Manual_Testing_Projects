@@ -162,6 +162,20 @@ The following issues were identified while running the postman tests:<br>
 
 ![hg87dXUbCw](https://github.com/user-attachments/assets/8d5015fc-2602-4fd6-99fd-a84ef42fad77)
 
+<li>Booking IDs:</li>
+
+    - The "checkout" parameter doesn't work, it returns random results instead of bookings with greater or equal checkout date
+    - In a search with/without parameters where we have no results, the API returns status code 200 "OK". I think either code 404 "Not Found" or code 204 "No Content" would be more intuitive
+    
+![anq3vmNnNQ](https://github.com/user-attachments/assets/286827f4-8ccd-4968-870a-6a42451c70d1)
+
+<li>Create Booking</li>
+
+    - Upon successfully creating a booking, returned status code is code 200 "OK", I think code 201 "Created" would be more intuitive
+    - The total price value cannot be a floating number. If we try to input the value "199.99" in the "totalprice" field and create a booking, only "199" would be saved
+    - A booking can be created even if checkin and checkout dates aren't valid, and in the created booking the invalid dates will show up as "0NaN-aN-aN", the API returning status code 200 "OK". Returning code 400 "Bad Request" would be better
+
+![HSFY95W9gY](https://github.com/user-attachments/assets/14683cb8-4c0c-4d04-9ead-b150b645d618)
 
 
 
