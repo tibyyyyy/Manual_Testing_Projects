@@ -43,7 +43,81 @@ JavaScript Tests:
 
 ![qWwC3Oqizb](https://github.com/user-attachments/assets/93f191e9-2fb0-4ac1-82f6-867d821cb136) <br>
 
-.............
+
+<li>**Get Booking IDs**</li>
+
+HTTP method for request: **GET**<br>
+Request description: **Returns the ids of all the bookings that exist within the API. Can take optional query strings to search and return a subset of booking ids.**<br>
+Test types / techniques used: **Functional Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
+Response status code: **200 OK**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![yy50NypJ00](https://github.com/user-attachments/assets/f5e57be4-ffbb-4d00-b274-f7e5d199e3be) <br>
+
+JavaScript Tests:
+
+![oAYn52n1bU](https://github.com/user-attachments/assets/393d1c89-8974-40a1-b881-0e3cac3a274e) <br>
+
+<li>**Nume Request n**</li>
+
+HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
+Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
+Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
+Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+
+JavaScript Tests:
+
+**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+
+<li>**Nume Request n**</li>
+
+HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
+Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
+Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
+Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+
+JavaScript Tests:
+
+**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+
+<li>**Nume Request n**</li>
+
+HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
+Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
+Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
+Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+
+JavaScript Tests:
+
+**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+
+<li>**Nume Request n**</li>
+
+HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
+Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
+Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
+Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+
+JavaScript Tests:
+
+**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
 
 <li>**Nume Request n**</li>
 
