@@ -208,6 +208,6 @@ The following issues were identified while running the postman tests:<br>
     
 <h2>Conclusions</h2>
 
-**To test the Restful Booker API I wrote and executed 25 tests in Postman, testing its functionality according to the API Documentation, to make sure it's behaving as intended and I managed to cover every request the API has to offer. The bugs I found could impact the launch of the product, especially the ones that affect the proper functionality of the API. For example, the inconsistent response time of the API can lead to a bad experience for users, leading them to lose interest in the product fairly quickly. The base of the product has been established, so I would recommend focusing on fixing the major bugs, making sure every module and its features work correctly.
+**To test the Restful Booker API I wrote and executed 25 tests in Postman, testing its functionality according to the API Documentation, to make sure it's behaving as intended and I managed to cover every request the API has to offer. The bugs I found could impact the launch of the product, especially the ones that affect the proper functionality of the API. For example, the inconsistent response time of the API can lead to a bad experience for users, leading them to lose interest in the product fairly quickly. The base of the product has been established, so I would recommend focusing on fixing the major bugs, making sure every module and its features work correctly.**
 
 
