@@ -4,14 +4,14 @@ The scope of this project is to use all  API knowledge gained throught the Softw
 
 Application under test: **Restful-Booker**
 
-Tools used: Postman, Newman
+Tools used: **Postman, Newman**
 
 Collection link: **[Postman Collection](https://www.postman.com/tiby/workspace/proiect-final)**
 
 <h2>Tests performed</h2>
 
 <ol>
-<li>**API Status Check**</li>
+<li> **API Status Check** </li>
 
 HTTP method for request: **GET**<br>
 Request description: **A simple health check endpoint to confirm whether the API is up and running.**<br>
@@ -19,12 +19,13 @@ Test types / techniques used: **Functional Testing, Positive Testing & Performan
 Response status code: **201 Created.**<br>
 
 Below you can find a picture of the API request from Postman:<br>
+
 ![RSoERLdW7e](https://github.com/user-attachments/assets/f926a2a1-4bd2-409a-95ce-94d7babe840d) <br>
 
 
 JavaScript Tests:
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+![RSoERLdW7e](https://github.com/user-attachments/assets/a8899baf-bf43-4110-97a2-967bae15d5c2) <br>
 
 
 <li>**Nume Request 2**</li>
