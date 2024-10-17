@@ -37,7 +37,7 @@ Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-![2FwwL5ftk6](https://github.com/user-attachments/assets/f7df71f2-faf8-4e22-91db-c3662a526a38) <br>
+![Mrq3eGWMTq](https://github.com/user-attachments/assets/38d6ec98-d970-44b7-9f7e-fbcd4e1509cc) <br>
 
 JavaScript Tests:
 
