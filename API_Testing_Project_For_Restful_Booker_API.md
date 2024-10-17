@@ -6,7 +6,12 @@ Application under test: **Restful-Booker**
 
 Tools used: **Postman, Newman**
 
-Collection link: **[Postman Collection](https://www.postman.com/tiby/workspace/proiect-final)**
+Links: 
+
+**[Postman Collection](https://www.postman.com/tiby/workspace/proiect-final)**
+**[API Documentation](https://restful-booker.herokuapp.com/apidoc/)**
+
+
 
 <h2>Tests performed</h2>
 
