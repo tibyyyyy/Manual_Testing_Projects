@@ -14,9 +14,9 @@ Collection link: **[Postman Collection](https://www.postman.com/tiby/workspace/p
 <li> **API Status Check** </li>
 
 HTTP method for request: **GET**<br>
-Request description: **A simple health check endpoint to confirm whether the API is up and running.**<br>
-Test types / techniques used: **Functional Testing, Positive Testing & Performance Testing to check API's response time.**<br>
-Response status code: **201 Created.**<br>
+Request description: **A simple health check endpoint to confirm whether the API is up and running**<br>
+Test types / techniques used: **Functional Testing, Positive Testing & Performance Testing to check API's response time**<br>
+Response status code: **201 Created**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
@@ -28,20 +28,20 @@ JavaScript Tests:
 ![RSoERLdW7e](https://github.com/user-attachments/assets/a8899baf-bf43-4110-97a2-967bae15d5c2) <br>
 
 
-<li>**Nume Request 2**</li>
+<li>**Create Token**</li>
 
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+HTTP method for request: **POST**<br>
+Request description: **Creates a new auth token to use for access to PUT/PATCH/DELETE requests**<br>
+Test types / techniques used: **Functional Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
+Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+![2FwwL5ftk6](https://github.com/user-attachments/assets/f7df71f2-faf8-4e22-91db-c3662a526a38) <br>
 
 JavaScript Tests:
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+![EbmurpoLrX](https://github.com/user-attachments/assets/fe8fd368-af1a-49c1-a585-4afcfc896683) <br>
 
 .............
 
