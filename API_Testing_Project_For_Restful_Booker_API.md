@@ -1,4 +1,4 @@
-<h1>API Testing Project for **Restful-Booker API**</h1>
+<h1>API Testing Project for Restful-Booker API</h1>
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
@@ -11,16 +11,16 @@ Collection link: **[Postman Collection](https://www.postman.com/tiby/workspace/p
 <h2>Tests performed</h2>
 
 <ol>
-<li>**Nume Request 1**</li>
+<li>**API Status Check**</li>
 
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+HTTP method for request: **GET**<br>
+Request description: **A simple health check endpoint to confirm whether the API is up and running.**<br>
+Test types / techniques used: **Functional Testing, Positive Testing & Performance Testing to check API's response time.**<br>
+Response status code: **201 Created.**<br>
 
 Below you can find a picture of the API request from Postman:<br>
+![RSoERLdW7e](https://github.com/user-attachments/assets/f926a2a1-4bd2-409a-95ce-94d7babe840d) <br>
 
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
 
 JavaScript Tests:
 
