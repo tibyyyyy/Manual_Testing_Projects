@@ -177,6 +177,13 @@ The following issues were identified while running the postman tests:<br>
 
 ![HSFY95W9gY](https://github.com/user-attachments/assets/14683cb8-4c0c-4d04-9ead-b150b645d618)
 
+<li>Delete Booking</li>
+
+    - Returned status code after successfully deleting a booking should be code 204 "No Content", but is 201 "Created"
+    - Returned status code for trying to delete an inexistent booking should be code 404 "Not Found", but is code 405 "Method not Allowed"
+
+![opPoY5SO2S](https://github.com/user-attachments/assets/9264420d-65b5-462c-95b2-e8737450fa45)
+![2UnozNBdNy](https://github.com/user-attachments/assets/369b9748-4a90-4334-a553-2137b14601b5)
 
 
 <h2>Conclusions</h2>
