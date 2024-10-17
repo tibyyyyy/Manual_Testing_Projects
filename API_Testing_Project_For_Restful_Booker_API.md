@@ -158,7 +158,7 @@ The following issues were identified while running the postman tests:<br>
 
 <li> Create Token: </li>
 
-    - Returned status code when trying to crate a token with invalid data should be code 401 "Unauthorised" but is code 200 "OK"
+    - Returned status code when trying to create a token with invalid data should be code 401 "Unauthorised" but is code 200 "OK"
 
 ![hg87dXUbCw](https://github.com/user-attachments/assets/8d5015fc-2602-4fd6-99fd-a84ef42fad77)
 
@@ -173,7 +173,7 @@ The following issues were identified while running the postman tests:<br>
 
     - Upon successfully creating a booking, returned status code is code 200 "OK", I think code 201 "Created" would be more intuitive
     - The total price value cannot be a floating number. If we try to input the value "199.99" in the "totalprice" field and create a booking, only "199" would be saved
-    - A booking can be created even if checkin and checkout dates aren't valid, and in the created booking the invalid dates will show up as "0NaN-aN-aN", the API returning status code 200 "OK". Returning code 400 "Bad Request" would be better
+    - A booking can be created even if checkin and checkout dates aren't valid, and in the created booking the invalid dates will show up as "0NaN-aN-aN", the API returning status code 200 "OK". It should return code 400 "Bad Request" and not allow the request
 
 ![HSFY95W9gY](https://github.com/user-attachments/assets/14683cb8-4c0c-4d04-9ead-b150b645d618)
 
