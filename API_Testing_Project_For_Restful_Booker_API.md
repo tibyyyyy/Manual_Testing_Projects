@@ -74,20 +74,20 @@ JavaScript Tests:
 
 ![lYPLCjrRAx](https://github.com/user-attachments/assets/e4eea9d3-5d07-4b4d-9973-ef785fee5063) <br>
 
-<li>**Nume Request n**</li>
+<li>**Create Booking**</li>
 
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+HTTP method for request: **POST**<br>
+Request description: **Creates a new booking in the API**<br>
+Test types / techniques used: **Functional Testing, Positive/Negative Testing & Performance Testing to check API's response time**<br>
+Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+![h06rEQfAHV](https://github.com/user-attachments/assets/ffeb2572-ac6d-48e5-826a-a193bc6d5df6) <br>
 
 JavaScript Tests:
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+![ongIOj8zZz](https://github.com/user-attachments/assets/4bdc70e9-56de-4925-a8cc-67231ab11a86) <br>
 
 <li>**Nume Request n**</li>
 
