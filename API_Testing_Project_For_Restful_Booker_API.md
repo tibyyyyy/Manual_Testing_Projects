@@ -41,7 +41,7 @@ Below you can find a picture of the API request from Postman:<br>
 
 JavaScript Tests:
 
-![EbmurpoLrX](https://github.com/user-attachments/assets/fe8fd368-af1a-49c1-a585-4afcfc896683) <br>
+![qWwC3Oqizb](https://github.com/user-attachments/assets/93f191e9-2fb0-4ac1-82f6-867d821cb136) <br>
 
 .............
 
